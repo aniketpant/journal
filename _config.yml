@@ -1,0 +1,11 @@
+permalink: /:year/:month/:date/:title
+auto: true
+markdown: kramdown
+exclude: Rakefile, CNAME, sass/, script/, README.md
+
+url: http://rawrrr.github.com
+
+name: "Rawrrr"
+description: "Journal of a soul"
+author:
+ name: "Aniket Pant"
