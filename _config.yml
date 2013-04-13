@@ -1,4 +1,4 @@
-permalink: /:year/:month/:date/:title
+permalink: /:year/:month/:title
 auto: true
 markdown: kramdown
 exclude: Rakefile, CNAME, sass/, script/, README.md
