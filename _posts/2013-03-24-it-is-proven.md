@@ -1,6 +1,7 @@
 ---
 title: It is proven.
 layout: entry
+date: 2013-03-24 10:14:00
 ---
 ### 2013-03-24 10:14, It is proven. 
 

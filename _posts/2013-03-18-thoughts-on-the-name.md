@@ -1,6 +1,7 @@
 ---
 title: Thoughts on the name.
 layout: entry
+date: 2013-03-18 14:00:00
 ---
 ### 2013-03-18 14:00, Thoughts on the name. 
 

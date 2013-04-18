@@ -1,6 +1,7 @@
 ---
 title: Working on projects.
 layout: entry
+date: 2013-03-27 22:21:00
 ---
 ### 2013-03-27 22:21, Working on projects. 
 

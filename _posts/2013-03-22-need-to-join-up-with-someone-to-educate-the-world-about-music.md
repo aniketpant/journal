@@ -1,6 +1,7 @@
 ---
 title: Need to join up with someone to educate the world about music.
 layout: entry
+date: 2013-03-22 19:39:00
 ---
 ### 2013-03-22 19:39, Need to join up with someone to educate the world about music. 
 

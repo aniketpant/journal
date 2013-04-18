@@ -1,6 +1,7 @@
 ---
 title: First contact with WordPress.
 layout: entry
+date: 2013-04-10 15:58:00
 ---
 ### 2013-04-10 15:58, First contact with WordPress. 
 

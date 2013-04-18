@@ -1,6 +1,7 @@
 ---
 title: Why don't companies release simple features first?
 layout: entry
+date: 2013-04-03 17:02:00
 ---
 ### 2013-04-03 17:02, Why don't companies release simple features first? 
 

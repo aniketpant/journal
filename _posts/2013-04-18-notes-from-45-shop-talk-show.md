@@ -1,6 +1,7 @@
 ---
 title: Notes from #45 Shop Talk Show.
 layout: entry
+date: 2013-04-18 23:18:00
 ---
 ### 2013-04-18 23:18, Notes from #45 Shop Talk Show. 
 

@@ -1,6 +1,7 @@
 ---
 title: The day has been interesting.
 layout: entry
+date: 2013-03-18 16:11:00
 ---
 ### 2013-03-18 16:11, The day has been interesting. 
 

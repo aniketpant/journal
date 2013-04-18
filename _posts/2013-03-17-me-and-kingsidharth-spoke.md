@@ -1,6 +1,7 @@
 ---
 title: Me and @kingsidharth spoke.
 layout: entry
+date: 2013-03-17 21:00:00
 ---
 ### 2013-03-17 21:00, Me and @kingsidharth spoke. 
 

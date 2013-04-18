@@ -1,6 +1,7 @@
 ---
 title: People don't need to know everything.
 layout: entry
+date: 2013-03-22 19:40:00
 ---
 ### 2013-03-22 19:40, People don't need to know everything. 
 

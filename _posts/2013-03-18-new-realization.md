@@ -1,6 +1,7 @@
 ---
 title: New realization.
 layout: entry
+date: 2013-03-18 16:30:00
 ---
 ### 2013-03-18 16:30, New realization. 
 

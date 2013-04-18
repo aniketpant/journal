@@ -1,6 +1,7 @@
 ---
 title: Application for MDN.
 layout: entry
+date: 2013-04-11 15:42:00
 ---
 ### 2013-04-11 15:42, Application for MDN. 
 

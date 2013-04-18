@@ -1,6 +1,7 @@
 ---
 title: Ruby can be fun.
 layout: entry
+date: 2013-03-29 22:48:00
 ---
 ### 2013-03-29 22:48, Ruby can be fun. 
 

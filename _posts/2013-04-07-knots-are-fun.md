@@ -1,6 +1,7 @@
 ---
 title: Knots are fun.
 layout: entry
+date: 2013-04-07 22:59:00
 ---
 ### 2013-04-07 22:59, Knots are fun. 
 
