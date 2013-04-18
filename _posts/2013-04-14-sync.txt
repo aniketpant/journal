@@ -1,2 +1,0 @@
-2013-04-14 03:25 Sync.
-Sync is nearly complete. Next step after that is to add Jekyll support which will really help me.
