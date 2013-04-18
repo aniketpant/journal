@@ -5,7 +5,7 @@ slug: home
 ---
 ### Recent writings
 
-<ul class="list">
+<ul class="nav nav--stacked list">
 {% for post in site.posts %}
 <li>
 <a href="{{ post.url }}">{{ post.title }}</a>

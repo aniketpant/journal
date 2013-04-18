@@ -10,12 +10,21 @@ body {
   border-left: 6px solid $blue;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-}
-
 .wrapper {
   max-width: 60rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 400;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
 }
 
 .logo {
@@ -25,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .list {
   a {
-    text-decoration: none;
+    padding: 3px 6px;
     &:hover {
       background: $blue;
       color: $white;
@@ -33,10 +42,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-a {
-  color: $blue;
-}
-
 article[role="main"] {
   line-height: 1.5;
+}
+
+.meta {
+  background: #f9fea2;
+}
+
+::selection {
+  background: $blue;
+  color: $white;
 }
