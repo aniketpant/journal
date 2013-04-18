@@ -2,17 +2,13 @@
 layout: base
 ---
 <div class="entry">
-	<header class="grid__item one-whole landmark">
+	<header>
 		<h1 class="post_title">{{ page.title }}</h1>
-		<div class="meta">
-      <p>Written on <date class="date">{{ page.date | date_to_long_string }}</date>
-    </div>
-	</header><!--
-  --><div class="grid__item one-whole">
-		<article>
-	  	{{ content }}  
-		</article>
-    <footer>
-    </footer>
-  </div>
-</div><!-- post -->
+	</header>
+  <article role="main">
+  	{{ content }}  
+	</article>
+  <footer>
+    <p class="smallprint meta">Written on <date class="date">{{ page.date | date_to_long_string }}</date>
+  </footer>
+</div><!-- entry -->

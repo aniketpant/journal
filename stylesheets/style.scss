@@ -1,0 +1,42 @@
+@import "vars";
+@import "inuit.css/inuit";
+
+body {
+  background: $white;
+  color: $gray;
+  font-family: $content;
+  font-weight: 300;
+  padding-left: 2rem;
+  border-left: 6px solid $blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.wrapper {
+  max-width: 60rem;
+}
+
+.logo {
+  color: $red;
+  text-decoration: none;
+}
+
+.list {
+  a {
+    text-decoration: none;
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+}
+
+a {
+  color: $blue;
+}
+
+article[role="main"] {
+  line-height: 1.5;
+}

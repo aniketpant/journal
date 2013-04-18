@@ -11,6 +11,22 @@
   <meta name="description" content="{{ site.desc }}">
   <meta name="keywords" content="aniket, pant, rawrrr, journal">
   <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Ubuntu:300,400,300italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -19,24 +35,29 @@
 
   <div class="header-container">
     <header class="grid wrapper" role="banner">
-      <h1 class="grid__item one-whole"><a href="/" rel="nofollow">Rawrrr</a></h1>
+      <div class="grid__item one-whole">
+        <h1>
+          <a class="logo" href="/" rel="nofollow">Rawrrr</a>
+        </h1>
+      </div>
     </header> <!-- header -->
   </div> <!-- header-container -->
 
   <div class="main-container">
-    <div class="grid wrapper">
-    {{ content }}
-    </div>
+    <section class="grid wrapper">
+      <div class="grid__item two-thirds palm--one-whole">
+      {{ content }}
+      </div><!--
+      --><div class="grid__item one-third palm--one-whole">
+        <p>I’m Aniket. I love to code, listen to music and I even write free-verses at times. A majority of my work involves writing syntax for design.</p>
+      </div>
+    </section>
   </div> <!-- main-container -->
 
   <div class="footer-container">
     <div class="grid wrapper">
-      <footer class="smallprint" role="contentinfo">
-        <div class="grid__item one-half">
-          <p class="text--left">
-            <span class="muted">Handcrafted by</span> <a href="http://twitter.com/{{ site.author.twitter }}">Aniket</a>
-          </p>
-        </div>
+      <footer class="grid__item one-whole smallprint" role="contentinfo">
+        <p><span class="muted">Handcrafted by</span> <a href="http://twitter.com/{{ site.author.twitter }}">Aniket</a>.</p>
       </footer> <!-- footer -->
     </div>
   </div> <!-- footer-container -->
