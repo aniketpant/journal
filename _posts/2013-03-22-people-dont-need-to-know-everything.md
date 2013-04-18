@@ -1,5 +1,5 @@
 ---
-title: People don't need to know everything.
+title: "People don't need to know everything."
 layout: entry
 date: 2013-03-22 19:40:00
 ---

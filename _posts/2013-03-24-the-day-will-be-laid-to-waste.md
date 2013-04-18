@@ -1,5 +1,5 @@
 ---
-title: The day will be laid to waste.
+title: "The day will be laid to waste."
 layout: entry
 date: 2013-03-24 07:48:00
 ---

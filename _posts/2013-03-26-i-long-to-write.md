@@ -1,5 +1,5 @@
 ---
-title: I long to write.
+title: "I long to write."
 layout: entry
 date: 2013-03-26 14:33:00
 ---

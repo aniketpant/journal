@@ -1,5 +1,5 @@
 ---
-title: Do I need multiple journals?
+title: "Do I need multiple journals?"
 layout: entry
 date: 2013-03-27 21:46:00
 ---

@@ -1,5 +1,5 @@
 ---
-title: Pathetic day.
+title: "Pathetic day."
 layout: entry
 date: 2013-03-21 06:51:00
 ---

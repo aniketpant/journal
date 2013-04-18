@@ -1,5 +1,5 @@
 ---
-title: Started the day with movies.
+title: "Started the day with movies."
 layout: entry
 date: 2013-03-17 17:08:00
 ---
