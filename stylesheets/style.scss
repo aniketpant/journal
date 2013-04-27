@@ -35,6 +35,10 @@ a {
 .list {
   a {
     padding: 3px 6px;
+    .title, .date {
+      display: block;
+      width: 100%;
+    }
     &:hover {
       background: $blue;
       color: $white;
