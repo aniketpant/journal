@@ -5,5 +5,5 @@ exclude: Rakefile, CNAME, sass/, script/, README.md
 
 url: http://rawrrr.github.com
 
-name: "Rawrrr"
+title: "Rawrrr"
 tagline: "Journal of a soul"
