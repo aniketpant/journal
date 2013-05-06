@@ -1,9 +1,8 @@
 permalink: /:year/:month/:title
-auto: true
 markdown: kramdown
-exclude: Rakefile, CNAME, sass/, script/, README.md
+exclude: ['Rakefile', 'CNAME', 'sass/', 'script/', 'README.md']
 
 url: http://rawrrr.github.com
 
-title: "Rawrrr"
-tagline: "Journal of a soul"
+title: "tekina"
+tagline: "board my sinking ship"
