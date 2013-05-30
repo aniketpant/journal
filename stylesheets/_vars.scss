@@ -1,21 +1,24 @@
-/**
- * Fonts
- */
-$content:           "Ubuntu", Helvetica, Arial, sans-serif;
+// Fonts
+$content:           "Ubuntu Light", Helvetica, Arial, sans-serif;
 
-/**
- * Base Colors
- */
+// Colors
 $blue:              #037F8C;
 $red:               #BF2C47;
 
 $white:             #FAFAFA;
 $gray:              #3C3C3C;
 
-/**
- * Overrides
- */
+// Base
+$base-font-size:    18px!default;
+$base-line-height:  26px!default;
 
+$base-font-family:  $content;
+
+// Brand
+$brand-color:       $red;
+$brand-face:        $content;
+
+// Overrides
 $use-grids:         true;
 $use-island:        true;
 $use-nav:           true;

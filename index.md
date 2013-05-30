@@ -3,8 +3,6 @@ layout: base
 title: Home
 slug: home
 ---
-### Recent writings
-
 <ul class="nav nav--stacked list">
 {% for post in site.posts %}
 <li>

@@ -36,30 +36,29 @@
     <div class="header-container">
       <header class="grid wrapper" role="banner">
         <div class="grid__item one-whole">
-          <a class="logo" href="/" rel="nofollow">
-            <h1><span class="caps">{{ site.title }}</span> <span class="delta">&lt;{{ site.tagline }}&gt;</span></h1>
+          <a class="brand" href="/" rel="nofollow">
+            <h1><span class="caps">{{ site.title }}</span> <span class="delta">{{ site.tagline }}</span></h1>
           </a>
         </div>
       </header> <!-- header -->
     </div> <!-- header-container -->
 
     <div class="main-container">
-      <section class="grid wrapper">
-        <div class="grid__item two-thirds palm-one-whole">
+      <div class="grid wrapper">
+        <div class="grid__item one-whole">
+          <section role="main">
+            <p class="lead">I’m <strong>Aniket</strong>. I <a href="http://aniketpant.com/archive">write</a>, <a href="http://aniketpant.com/speaking">talk</a> and <a href="http://twitter.com/aniket_pant">tweet</a>.</p>
           {{ content }}
-      </div><!--
-    --><div class="grid__item one-third palm-one-whole">
-    <p>I’m <a href="http://aniketpant.com"><strong>Aniket</strong></a>. I love to code, listen to music and I even write free-verses at times. A majority of my work involves writing <em>syntax for design</em>.</p>
-  </div>
-</section>
-</div> <!-- main-container -->
-
-<div class="footer-container">
-  <div class="grid wrapper">
-    <footer class="grid__item one-whole smallprint" role="contentinfo">
-      <p><span class="muted">Handcrafted by</span> <a href="http://twitter.com/aniket_pant">Aniket</a>.</p>
-    </footer> <!-- footer -->
-  </div>
-</div> <!-- footer-container -->
+          <section>
+        </div>
+      </div>
+    </div> <!-- main-container -->
+    <div class="footer-container">
+      <div class="grid wrapper">
+        <footer class="grid__item one-whole smallprint" role="contentinfo">
+          <p><span class="muted">Handcrafted by</span> <a href="http://twitter.com/aniket_pant">Aniket</a>.</p>
+        </footer> <!-- footer -->
+      </div>
+    </div> <!-- footer-container -->
 </body>
 </html>
