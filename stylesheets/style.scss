@@ -11,14 +11,10 @@ body {
 }
 
 .wrapper {
-  max-width: 60rem;
+  max-width: 30rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-}
-
-strong {
   font-weight: 400;
 }
 
@@ -30,6 +26,10 @@ a {
 .logo {
   color: $red;
   text-decoration: none;
+}
+
+.lead {
+  @include font-size($base-font-size * 1.25);
 }
 
 .list {

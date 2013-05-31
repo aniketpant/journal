@@ -1,6 +1,6 @@
 permalink: /:year/:month/:title
 markdown: kramdown
-exclude: ['Rakefile', 'CNAME', 'sass/', 'script/', 'README.md']
+exclude: ['Rakefile', 'CNAME', 'stylesheets', 'README.md', 'config.rb', 'LICENSE']
 
 url: http://rawrrr.github.com
 
