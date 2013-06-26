@@ -6,27 +6,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{% if page.title == "Home" %}{{ site.tagline }}{% else %}{{ page.title }}{% endif %} &ndash; {{ site.title }}</title>
+  <title>{% if page.slug == "home" %}{{ site.tagline }}{% else %}{{ page.title }}&ndash; {{ site.tagline }} &ndash; {{ site.title }}{% endif %}</title>
   <meta name="author" content="Aniket Pant">
   <meta name="description" content="{{ site.tagline }}">
   <meta name="keywords" content="aniket, pant, rawrrr, journal">
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" type="text/css" href="/style.css">
-
-  <script type="text/javascript">
-  WebFontConfig = {
-    google: { families: [ 'Ubuntu:300,400,300italic:latin' ] }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })(); </script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -37,7 +23,7 @@
       <header class="grid wrapper" role="banner">
         <div class="grid__item one-whole">
           <a class="brand" href="/" rel="nofollow">
-            <h1><span class="caps">{{ site.title }}</span> <span class="delta">{{ site.tagline }}</span></h1>
+            <h1><span class="caps">{{ site.title }}</span><br/><span class="delta">{{ site.tagline }}</span></h2>
           </a>
         </div>
       </header> <!-- header -->
@@ -60,5 +46,19 @@
         </footer> <!-- footer -->
       </div>
     </div> <!-- footer-container -->
+
+    <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Ubuntu:300,400,300italic:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
 </body>
 </html>
