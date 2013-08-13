@@ -4,5 +4,5 @@ exclude: ['Rakefile', 'CNAME', 'stylesheets', 'README.md', 'config.rb', 'LICENSE
 
 url: http://rawrrr.github.com
 
-title: "tekina"
-tagline: "board my sinking ship"
+title: "board my sinking ship"
+tagline: "jrnl of a dev"
