@@ -1,8 +1,6 @@
 ---
-title: "New credentials."
-layout: entry
-date: 2013-03-27 01:43:00
+layout: post
+title: New credentials.
+date: 2013-03-27 01:43
 ---
-### 2013-03-27 01:43, New credentials. 
-
-f2009277:pininfarina 
+f2009277:pininfarina
