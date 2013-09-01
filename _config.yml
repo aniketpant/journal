@@ -4,5 +4,4 @@ exclude: ['Rakefile', 'CNAME', 'stylesheets', 'README.md', 'config.rb', 'LICENSE
 
 url: http://rawrrr.github.com
 
-title: "board my sinking ship"
-tagline: "jrnl of a dev"
+title: "jrnl of a dev"
