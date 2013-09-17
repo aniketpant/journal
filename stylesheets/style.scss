@@ -8,7 +8,6 @@ body {
   font-weight: 300;
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-  border-left: 6px solid $blue;
 }
 
 .wrapper {
@@ -24,7 +23,13 @@ a {
   text-decoration: none;
 }
 
+.header-container {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .logo {
+  display: block;
   color: $red;
   text-decoration: none;
 }
@@ -35,14 +40,19 @@ a {
 
 .list {
   a {
-    padding: 3px 6px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid darken($white, 20%);
     .title, .date {
       display: block;
       width: 100%;
     }
-    &:hover {
-      background: $blue;
-      color: $white;
+    .excerpt {
+      color: $gray;
+      margin: 1rem 0;
+    }
+    &.highlite {
+      border-left-color: $blue;
     }
   }
 }
