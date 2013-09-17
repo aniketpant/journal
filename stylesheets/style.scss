@@ -11,16 +11,20 @@ body {
 }
 
 .wrapper {
-  max-width: 30rem;
+  max-width: 40rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 a {
   color: $blue;
   text-decoration: none;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .header-container {
@@ -46,6 +50,10 @@ a {
     .title, .date {
       display: block;
       width: 100%;
+      font-weight: 400;
+      color: $gray;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
     .excerpt {
       color: $gray;
@@ -58,7 +66,7 @@ a {
 }
 
 article[role="main"] {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .meta {
