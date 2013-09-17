@@ -1,0 +1,6 @@
+---
+layout: post
+title: Make your keyboard better.
+date: 2013-09-14 12:38
+---
+Just customized my keyboard layout to allow extra typographic charactes — (Right Alt) + (Key). It's about time I start making use of these features.
