@@ -1,5 +1,5 @@
 permalink: /:year/:month/:title
-markdown: kramdown
+markdown: redcarpet
 exclude: ['Rakefile', 'CNAME', 'stylesheets', 'README.md', 'config.rb', 'LICENSE']
 
 url: http://rawrrr.github.com
