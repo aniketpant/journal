@@ -2,8 +2,8 @@
 $content:           'Roboto', Helvetica, Arial, sans-serif;
 
 // Colors
-$blue:              #435BA6;
-$red:               #BF2C47;
+$color-base:        #435BA6;
+$color-alt:         #71bc59;
 
 $white:             #FAFAFA;
 $gray:              #3C3C3C;
@@ -15,7 +15,7 @@ $base-line-height:  26px!default;
 $base-font-family:  $content;
 
 // Brand
-$brand-color:       $red;
+$brand-color:       $color-alt;
 $brand-face:        $content;
 
 // Overrides

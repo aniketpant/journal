@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $blue;
+  color: $color-alt;
   text-decoration: none;
 }
 
@@ -34,12 +34,13 @@ strong {
 
 .logo {
   display: block;
-  color: $red;
+  color: $color-alt;
   text-decoration: none;
 }
 
 .lead {
   @include font-size($base-font-size * 1.25);
+  color: lighten($gray, 20%);
 }
 
 .list {
@@ -60,7 +61,7 @@ strong {
       margin: 1rem 0;
     }
     &.highlite {
-      border-left-color: $blue;
+      border-left-color: $color-base;
     }
   }
 }
@@ -74,6 +75,6 @@ article[role="main"] {
 }
 
 ::selection {
-  background: $blue;
+  background: $color-base;
   color: $white;
 }
