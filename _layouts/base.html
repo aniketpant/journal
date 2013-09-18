@@ -19,31 +19,18 @@
     <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
 
-    <div class="header-container">
-      <header class="grid wrapper" role="banner">
-        <div class="grid__item one-whole">
-          <a class="logo" href="/" rel="nofollow"><img src="/images/logo.png" alt="{{site.title}}" /></a>
-        </div>
-      </header> <!-- header -->
-    </div> <!-- header-container -->
-
-    <div class="main-container">
-      <div class="grid wrapper">
-        <div class="grid__item one-whole">
-          <section role="main">
-            <p class="lead">I’m <strong>Aniket</strong>. I <a href="http://aniketpant.com/archive">write</a>, <a href="http://aniketpant.com/speaking">talk</a> and <a href="http://twitter.com/aniket_pant">tweet</a>.</p>
-          {{ content }}
-          <section>
-        </div>
-      </div>
-    </div> <!-- main-container -->
-    <div class="footer-container">
-      <div class="grid wrapper">
-        <footer class="grid__item one-whole smallprint" role="contentinfo">
-          <p><span class="muted">Handcrafted by</span> <a href="http://twitter.com/aniket_pant">Aniket</a>.</p>
-        </footer> <!-- footer -->
-      </div>
-    </div> <!-- footer-container -->
+    <div class="grid wrapper push--top">
+      <header class="grid__item one-third palm-one-whole" role="banner">
+        <a class="logo" href="/" rel="nofollow"><img src="/images/logo.png" alt="{{site.title}}" /></a>
+      </header><!--
+      --><section role="main" class="grid__item two-thirds palm-one-whole">
+        <p class="lead">I'm a <strong>developer</strong> who <a href="http://aniketpant.com/archive">writes</a>,<br/><a href="http://aniketpant.com/speaking">talks</a> and <a href="http://twitter.com/aniket_pant">tweets</a>.</p>
+      {{ content }}
+      </section><!--
+    --><footer class="grid__item one-whole smallprint" role="contentinfo">
+        <p><span class="muted">Handcrafted by</span> <a href="http://twitter.com/aniket_pant">Aniket</a>.</p>
+      </footer> <!-- footer -->
+    </div>
 
     <script type="text/javascript">
     WebFontConfig = {
