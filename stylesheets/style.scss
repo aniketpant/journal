@@ -6,8 +6,8 @@ body {
   color: $gray;
   font-family: $content;
   font-weight: 300;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .wrapper {
@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $color-alt;
   text-decoration: none;
+  border-bottom: 1px solid darken($white, 10%);
+  &:hover {
+    border-bottom-color: $color-alt;
+  }
 }
 
 strong {
@@ -33,9 +37,8 @@ strong {
 }
 
 .logo {
-  display: block;
   color: $color-alt;
-  text-decoration: none;
+  border: none;
 }
 
 .lead {
@@ -44,10 +47,13 @@ strong {
 }
 
 .list {
+  border: none;
+  li {
+    border: none;
+    padding: 0;
+  }
   .link {
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-    border-left: 3px solid darken($white, 20%);
+    border: none;
     .title, .date {
       display: block;
       width: 100%;
@@ -56,12 +62,8 @@ strong {
       letter-spacing: 1px;
       text-transform: uppercase;
     }
-    .excerpt {
-      color: $gray;
-      margin: 1rem 0;
-    }
-    &.highlite {
-      border-left-color: $color-base;
+    &:hover {
+      background: darken($white, 3%);
     }
   }
 }
