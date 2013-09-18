@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+strong {
+  font-weight: 500;
+}
+
 a {
   color: $color-alt;
   text-decoration: none;
@@ -25,15 +29,6 @@ a {
   &:hover {
     border-bottom-color: $color-alt;
   }
-}
-
-strong {
-  font-weight: 500;
-}
-
-.header-container {
-  padding-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .logo {
