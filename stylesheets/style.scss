@@ -72,11 +72,7 @@ article[role="main"] {
   line-height: 1.6;
 }
 
-.meta {
-  background: #f9fea2;
-}
-
 ::selection {
-  background: $color-base;
+  background: $color-alt;
   color: $white;
 }
