@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gemoetee is amazing.
+title: geometee is amazing.
 date: 2013-05-05 21:17 +0530
 ---
 
