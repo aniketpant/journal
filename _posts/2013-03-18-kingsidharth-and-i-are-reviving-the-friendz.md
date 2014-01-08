@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '@kingsidharth and I are reviving ''The Friendz''.'
+title: "@kingsidharth and I are reviving 'The Friendz'."
 date: 2013-03-18 17:15 +0530
 ---
 
